@@ -1,0 +1,25 @@
+.button {
+  color: var(--textColor);
+  border: 2px solid var(--accentColor);
+  text-align: center;
+  background: transparent;
+  transition: 0.25s ease-in;
+}
+
+.pressedButton {
+  color: var(--blackColor);
+  border: 2px solid var(--accentColor);
+  text-align: center;
+  background: var(--accentColor);
+  transform: translate(2px, 2px);
+  transition: 0.25s ease-in;
+}
+
+.hoverButton {
+  color: var(--blackColor);
+  border: 2px solid var(--accentColor);
+  text-align: center;
+  background: var(--accentColor);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+  transition: 0.25s ease-in;
+}
